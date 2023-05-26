@@ -12,7 +12,7 @@ const Dashboard2 = () => {
   useEffect(() => {
     const fetchSubscriptionDetails = async () => {
       const response = await fetch(
-        'https://tan-clear-kangaroo.cyclic.app/api/getSubscription',
+        'https://spotless-pear-piglet.cyclic.app/api/getSubscription',
         {
           headers: {
             Authorization: `Bearer ${authToken}`,

@@ -31,7 +31,7 @@ export default function Login() {
     ) {
       setDisabled(true)
       const res = await fetch(
-        `https://tan-clear-kangaroo.cyclic.app/api/signin`,
+        `https://spotless-pear-piglet.cyclic.app/api/signin`,
         {
           method: 'POST',
           headers: {

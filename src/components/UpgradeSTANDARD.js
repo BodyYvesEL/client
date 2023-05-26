@@ -27,7 +27,7 @@ const Dashboard = () => {
   const createSubscription = async (priceId) => {
     try {
       const response = await axios.post(
-        'https://tan-clear-kangaroo.cyclic.app/api/createCheckoutSession',
+        'https://spotless-pear-piglet.cyclic.app/api/createCheckoutSession',
         {
           priceId,
         },

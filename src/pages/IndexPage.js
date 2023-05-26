@@ -79,7 +79,7 @@ export default function Home({ initialNamespace }) {
     try {
       const authToken = await Cookies.get('token')
       const response = await fetch(
-        `https://tan-clear-kangaroo.cyclic.app/api/history?chatId=${chatId}`,
+        `https://spotless-pear-piglet.cyclic.app/api/history?chatId=${chatId}`,
         {
           headers: {
             Authorization: `Bearer ${authToken}`,
@@ -153,7 +153,7 @@ export default function Home({ initialNamespace }) {
       const authToken = await Cookies.get('token')
 
       const response = await fetch(
-        'https://tan-clear-kangaroo.cyclic.app/on.cyclic.app/api/chat',
+        'https://spotless-pear-piglet.cyclic.app/on.cyclic.app/api/chat',
         {
           method: 'POST',
           headers: {

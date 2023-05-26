@@ -37,7 +37,7 @@ export default function Register() {
     ) {
       setDisabled(true)
       const res = await fetch(
-        `https://tan-clear-kangaroo.cyclic.app/api/signup`,
+        `https://spotless-pear-piglet.cyclic.app/api/signup`,
         {
           method: 'POST',
           headers: {
@@ -67,7 +67,7 @@ export default function Register() {
           showLoaderOnConfirm: true,
           preConfirm: (otp) => {
             return fetch(
-              `https://tan-clear-kangaroo.cyclic.app/on.cyclic.app/api/verify`,
+              `https://spotless-pear-piglet.cyclic.app/on.cyclic.app/api/verify`,
               {
                 method: 'POST',
                 headers: {

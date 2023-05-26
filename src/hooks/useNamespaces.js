@@ -13,7 +13,7 @@ export default function useNamespaces() {
     try {
       const authToken = await Cookies.get('token')
       const response = await fetch(
-        'https://tan-clear-kangaroo.cyclic.app/api/getNamespaces',
+        'https://spotless-pear-piglet.cyclic.app/api/getNamespaces',
         {
           headers: {
             Authorization: `Bearer ${authToken}`,
