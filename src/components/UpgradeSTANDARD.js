@@ -71,7 +71,7 @@ const Dashboard = () => {
                   >
                     <polyline points="20 6 9 17 4 12" />
                   </svg>{' '}
-                  Limited Access to Chat
+                  Everything in Free plan
                 </li>
                 <li className="flex items-center">
                   <svg
@@ -88,7 +88,7 @@ const Dashboard = () => {
                   >
                     <polyline points="20 6 9 17 4 12" />
                   </svg>{' '}
-                  One Document Upload
+                  10 files collection
                 </li>
                 <li className="flex items-center">
                   <svg
@@ -105,7 +105,7 @@ const Dashboard = () => {
                   >
                     <polyline points="20 6 9 17 4 12" />
                   </svg>{' '}
-                  No User Preference
+                  Monthly Tokens: 6000
                 </li>
                 <li className="flex items-center">
                   <svg
@@ -122,7 +122,7 @@ const Dashboard = () => {
                   >
                     <polyline points="20 6 9 17 4 12" />
                   </svg>{' '}
-                  Unlimited Access to Chat
+                  Complete document support
                 </li>
                 <li className="flex items-center">
                   <svg
@@ -139,8 +139,7 @@ const Dashboard = () => {
                   >
                     <polyline points="20 6 9 17 4 12" />
                   </svg>{' '}
-                  User Preference (Eg. Business referencing IT, Sales,
-                  Marketing, Finance, etc.)
+                  Document Upload: 100 MB
                 </li>
                 <li className="flex items-center">
                   <svg
