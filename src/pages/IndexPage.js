@@ -153,7 +153,7 @@ export default function Home({ initialNamespace }) {
       const authToken = await Cookies.get('token')
 
       const response = await fetch(
-        'https://spotless-pear-piglet.cyclic.app/on.cyclic.app/api/chat',
+        ' https://spotless-pear-piglet.cyclic.app/api/chat',
         {
           method: 'POST',
           headers: {

@@ -67,7 +67,7 @@ export default function Register() {
           showLoaderOnConfirm: true,
           preConfirm: (otp) => {
             return fetch(
-              `https://spotless-pear-piglet.cyclic.app/on.cyclic.app/api/verify`,
+              ` https://spotless-pear-piglet.cyclic.app/api/verify`,
               {
                 method: 'POST',
                 headers: {
