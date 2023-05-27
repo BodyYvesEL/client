@@ -45,7 +45,7 @@ const Settings = () => {
     try {
       const authToken = await Cookies.get('token')
       const response = await fetch(
-        ` https://spotless-pear-piglet.cyclic.app/api/deleteNamespace?namespace=${namespace}`,
+        `https://spotless-pear-piglet.cyclic.app/api/deleteNamespace?namespace=${namespace}`,
         {
           method: 'DELETE',
           headers: {
@@ -96,7 +96,7 @@ const Settings = () => {
     try {
       const authToken = await Cookies.get('token')
       const response = await fetch(
-        ' https://spotless-pear-piglet.cyclic.app/api/upload',
+        'https://spotless-pear-piglet.cyclic.app/api/upload',
         {
           method: 'POST',
           body: formData,
@@ -122,7 +122,7 @@ const Settings = () => {
       setLoading(true)
       const authToken = await Cookies.get('token')
       const response = await fetch(
-        ` https://spotless-pear-piglet.cyclic.app/api/consume?namespaceName=${namespaceName}`,
+        `https://spotless-pear-piglet.cyclic.app/api/consume?namespaceName=${namespaceName}`,
         {
           method: 'POST',
           headers: {
